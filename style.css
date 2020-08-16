@@ -10,9 +10,55 @@
   text-align: center;
 }
 
+.compScreen {
+    text-align: right;
+
+}
+
+.compHealth{
+    max-height: 20px;
+    width: 50%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    float: right;
+}
+
+.compChoice {
+    float: right;
+}
+
+.userScreen {
+    text-align: right;
+    justify-content: right;
+
+}
+
+.userHealth{
+    max-height: 20px;
+    width: 50%;
+    text-align: center;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    float: left;
+}
+
+.userChoice img {
+    padding: 0;
+    margin: 0;
+    float: left;
+
+}
+
 .userController {
     border-style: solid;
     display: flex;
+}
+
+.moves{
+    max-width: 30%;
 }
 
 .moves h2, h5 {
@@ -28,8 +74,8 @@
     background-color: slategray;
     color: white;
     padding: 2%;
+    max-width: 70%;
 }
-
 
 .confirm_choice {
   border-style: solid;
