@@ -1,0 +1,55 @@
+* {
+  margin: 1%
+
+}
+
+.app {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.userController {
+    border-style: solid;
+    display: flex;
+}
+
+.moves h2, h5 {
+  text-align: left;
+}
+
+.movesGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.statusScreen {
+    background-color: slategray;
+    color: white;
+    padding: 2%;
+}
+
+
+.confirm_choice {
+  border-style: solid;
+}
+
+.pokemon_choices{
+  border-style: solid;
+}
+
+.choices_wrapper{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+}
+
+.pokemon:hover {
+    border-style: solid;
+
+}
+
+.choices_wrapper img {
+  max-width: 80%;
+}
+
